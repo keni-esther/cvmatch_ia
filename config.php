@@ -10,7 +10,7 @@ error_reporting(E_ALL);
 define('DB_HOST', getenv('MYSQLHOST') ?: 'mysql.railway.internal');
 define('DB_PORT', getenv('MYSQLPORT') ?: '3306');
 define('DB_USER', getenv('MYSQLUSER') ?: 'root');
-define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'agLVoiIdQJqDpDycdpHSWsDRqeWwrrvB');
+define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'QdnbDQCiZSOUNCNBAwFjgGCyGvIAhorQ');
 define('DB_NAME', getenv('MYSQLDATABASE') ?: 'railway');
 
 
