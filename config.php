@@ -7,12 +7,12 @@ error_reporting(E_ALL);
 // ============================================
 // CVMatch IA - Configuration INTERNE Railway
 // ============================================
+define('DB_HOST', getenv('MYSQLHOST') ?: 'mysql.railway.internal');
+define('DB_PORT', getenv('MYSQLPORT') ?: '3306');
+define('DB_USER', getenv('MYSQLUSER') ?: 'root');
+define('DB_PASS', getenv('MYSQLPASSWORD') ?: 'agLVoiIdQJqDpDycdpHSWsDRqeWwrrvB');
+define('DB_NAME', getenv('MYSQLDATABASE') ?: 'railway');
 
-define('DB_HOST', 'mysql.railway.internal'); 
-define('DB_PORT', '3306'); 
-define('DB_USER', 'root');
-define('DB_PASS', 'agLVoiIdQJqDpDycdpHSWsDRqeWwrrvB');
-define('DB_NAME', 'railway'); 
 
 define('CODE_RECRUTEUR', 'RECRUT2024');
 define('IA_SERVICE_URL', 'https://cvmatch-ia-production-c415.up.railway.app/');
