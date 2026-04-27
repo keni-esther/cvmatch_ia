@@ -119,7 +119,7 @@ if (isset($_GET['ajax']) && $_GET['ajax'] == '1') {
     if ($tab === 'profil')
         include 'sections/candidat_profil.php';
     elseif ($tab === 'cv')
-        include 'sections/candidat_cv.php';
+        include 'sections/candadat_cv.php';
     elseif ($tab === 'candidatures')
         include 'sections/candidat_candidatures.php';
     exit;
