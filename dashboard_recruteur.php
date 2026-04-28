@@ -34,7 +34,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['rechercher'])) {
             ]
         ];
         $response = @file_get_contents($url, false, stream_context_create($opts));
-
+       // DEBUG TEMPORAIRE — à supprimer après
+error_log("Flask URL: " . $url);
+error_log("Flask response: " . var_export($response, true));
+error_log("HTTP headers: " . var_export($http_response_header ?? [], true));
+        
         if ($response !== false) {
             $json = json_decode($response, true);
             if (!empty($json['resultats'])) {
