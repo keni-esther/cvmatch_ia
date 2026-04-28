@@ -15,7 +15,7 @@ define('DB_PASS', 'agLVoiIdQJqDpDycdpHSWsDRqeWwrrvB');
 define('DB_NAME', 'railway'); 
 
 define('CODE_RECRUTEUR', 'RECRUT2024');
-define('IA_SERVICE_URL', 'https://railway.app');
+define('IA_SERVICE_URL', 'https://cvmatch-ia-production-c415.up.railway.app/');
 define('UPLOAD_DIR', __DIR__ . '/uploads/');
 
 /**
